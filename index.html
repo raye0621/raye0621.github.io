@@ -80,6 +80,44 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-新加坡" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/07/11/%E6%96%B0%E5%8A%A0%E5%9D%A1/" class="article-date">
+  <time class="dt-published" datetime="2024-07-11T15:09:19.000Z" itemprop="datePublished">2024-07-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/07/11/%E6%96%B0%E5%8A%A0%E5%9D%A1/">新加坡</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://raye0621.github.io/2024/07/11/%E6%96%B0%E5%8A%A0%E5%9D%A1/" data-id="cm6z0sqcb0002wjx33mbc82sg" data-title="新加坡" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-徒步環島" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/06/26/%E5%BE%92%E6%AD%A5%E7%92%B0%E5%B3%B6/" class="article-date">
@@ -111,7 +149,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://raye0621.github.io/2023/06/26/%E5%BE%92%E6%AD%A5%E7%92%B0%E5%B3%B6/" data-id="cljcmwrhq0000b5ut63fp2rsr" data-title="徒步環島" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://raye0621.github.io/2023/06/26/%E5%BE%92%E6%AD%A5%E7%92%B0%E5%B3%B6/" data-id="cm6z0sqca0001wjx34k140um3" data-title="徒步環島" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -149,10 +187,11 @@
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><p>建立新文章</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo <span class="keyword">new</span> <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><blockquote>
+<p><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a></p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
@@ -161,11 +200,24 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="清理快取"><a href="#清理快取" class="headerlink" title="清理快取"></a>清理快取</h3><blockquote>
+<p>清理 Hexo 的快取與已生成的靜態文件，避免舊檔案影響。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 
+<h3 id="生成靜態文件"><a href="#生成靜態文件" class="headerlink" title="生成靜態文件"></a>生成靜態文件</h3><blockquote>
+<p>將 Markdown 文章轉換為靜態網頁，輸出到 <code>public/</code> 資料夾。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<h3 id="合體技"><a href="#合體技" class="headerlink" title="合體技"></a>合體技</h3><blockquote>
+<p>重新編譯並部署</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://raye0621.github.io/2023/05/13/hello-world/" data-id="clir4b6ci0000wyutcqez405n" data-title="Hello World. test title" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://raye0621.github.io/2023/05/13/hello-world/" data-id="cm6z0sqc80000wjx31zbmfsed" data-title="Hello World. test title" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -195,7 +247,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">彙整</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">六月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">五月 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/07/">七月 2024</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">六月 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">五月 2023</a></li></ul>
     </div>
   </div>
 
@@ -206,6 +258,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/07/11/%E6%96%B0%E5%8A%A0%E5%9D%A1/">新加坡</a>
+          </li>
         
           <li>
             <a href="/2023/06/26/%E5%BE%92%E6%AD%A5%E7%92%B0%E5%B3%B6/">徒步環島</a>
@@ -228,7 +284,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2024 Rayeee Pan<br>
+      &copy; 2025 Rayeee Pan<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
